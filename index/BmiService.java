@@ -1,7 +1,7 @@
-public class BmiService {
-    public double calculate(double tall) {
-        int  weight = 1;
-        double imt = (weight / (tall * tall)) * 100;
+public class
+BmiService {
+    public double calculate(double tall,double weight) {
+        double imt = weight /( tall * tall) ;
         return imt;
     }
 }
